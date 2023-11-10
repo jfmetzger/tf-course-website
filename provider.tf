@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket  = "roidtc-projects-209-tf-state"
-    prefix  = "terraform/state"
+    bucket = "roidtc-projects-209-tf-state"
+    prefix = "terraform/state"
   }
 }
 
